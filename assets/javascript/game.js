@@ -6,10 +6,10 @@ $(document).ready(function () {
     $('#scoreToMatch').text(randomNum);
 
     //Generate random number for each crystal
-    var num1 = Math.floor(Math.random() * 12 + 1)
-    var num2 = Math.floor(Math.random() * 12 + 1)
-    var num3 = Math.floor(Math.random() * 12 + 1)
-    var num4 = Math.floor(Math.random() * 12 + 1)
+    var num1 = Math.floor(Math.random() * 10 + 1)
+    var num2 = Math.floor(Math.random() * 10 + 1)
+    var num3 = Math.floor(Math.random() * 10 + 1)
+    var num4 = Math.floor(Math.random() * 10 + 1)
 
     // Variables to keep track of wins, losses and total
     var playerTotal = 0;

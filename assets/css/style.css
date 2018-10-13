@@ -22,7 +22,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-#wins, #losses {
+.italic-style {
     font-style: italic;
 }
 
