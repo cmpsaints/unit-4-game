@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html">
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width" initial-scale=1.0">
+
+    <title>Crystal Collector Game</title>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- jQuery -->
+    <script src="assets/jQuery/jquery-3.3.1.js"></script>
+
+</head>
+
+
+<body>
+
+    <script src="assets/javascript/game.js"></script>
+
+    <div class="jumbotron text-center">
+        <h1>Crystal Collector Game</h1>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4" id="directions">
+                <h2>Instructions</h2>
+                <p>(1) You will be given a random number at the start of the game.</p>
+                <p>(2) There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                <p>(3) You win the game by matching your total score to the random number.<br> 
+                    You lost the game if your total score goes above the random number.</p>
+                <p>(4) The value of each crystal is hidden from you until you click on it.</p>
+                <p>(5) Each time when the game starts, the values of each crystal will change.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col spacing"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Score to match: <span id="scoreToMatch">97</span></h2>
+                <h3 >wins: <span id="wins">0</span></h3>
+                <h3 class="">losses: <span id="losses">0</span></h3>
+            </div>
+            <div class="col-sm-6">
+                <h2>Your total score: <span id="totalScore">25</span></h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col spacing"></div>
+        </div>
+
+        <div class="row text-center">
+            <div class="col-sm-6 col-xl-3 crystal-col">
+                <img src="assets/images/crystal_01.png" id="crystal_01" height="200">
+            </div>
+            <div class="col-sm-6 col-xl-3 crystal-col">
+                <img src="assets/images/crystal_02.png" id="crystal_02" height="200">
+            </div>
+            <div class="col-sm-6 col-xl-3 crystal-col">
+                <img src="assets/images/crystal_03.png" id="crystal_03" height="200">
+            </div>
+            <div class="col-sm-6 col-xl-3 crystal-col">
+                <img src="assets/images/crystal_04.png" id="crystal_04" height="200">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col spacing"></div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,31 @@
+.jumbotron {
+    background-image: url("../images/jumbotron-bg.jpg");
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: #000000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#directions {
+    text-align: left;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.crystal-col {
+    margin-bottom: 10px;
+}
+
+#wins, #losses {
+    font-style: italic;
+}
+
+.spacing {
+    height: 20px;
+}
